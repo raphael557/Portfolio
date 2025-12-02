@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio Profissional de Raphael Mestre, desenvolvedor Front-End">
+    <meta name="keywords" content="portfólio, front-end, html5, css3, javascript, bootstrap, mysql">
+
+    <title>Portfólio</title>
+
+    <link rel="shortcut icon" href="./img/boy.png" type="image/x-icon">
+
+    <!-- Link do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#index.html">Portfólio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sobre">Sobre mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatos">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="sobre" class="container my-3">
+        <div class="row align-items-center">
+            <!-- Texto -->
+            <div class="col-lg-6 col-md-7">
+                <h1>Olá, eu sou o Rapha</h1>
+                <h2>Front-End Developer</h2>
+                <p class="pt-3">Atualmente, tenho 18 anos. Sou estudante do curso Técnico em Informática com foco em
+                    Desenvolvimento Web.</p>
+                <div class="align-items-center mb-3">
+                    <a href="mailto:raphalmestre502@gmail.com" target="_blank" aria-label="Contratar Raphael Mestre"
+                        class="btn btn-outline-dark">Contrate-me</a>
+                    <a href="https://github.com/raphael557" target="_blank"
+                        aria-label="Perfil do Github de Raphael Mestre" class="btn btn-outline-dark">Projetos</a>
+                </div>
+                <div>
+                    <a href="https://github.com/raphael557" target="_blank" class="text-decoration-none">
+                        <img src="img/github.png" alt="Perfil do Github de Raphael Mestre">
+                    </a>
+                    <a href="https://www.linkedin.com/in/raphael-mestre-oliveira-67b89824b/"
+                        class="text-decoration-none">
+                        <img src="img/linkedin.png" alt="Perfil de Linkedin de Raphael Mestre">
+                    </a>
+                    <a href="https://www.instagram.com/raphaelmestre_/">
+                        <img src="img/instagram.png" alt="Perfil do Instagram de Raphael Mestre"
+                            class="text-decoration-none">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Imagem -->
+            <div class="col-lg-6 col-md-5 text-center">
+                <img src="img/IMG-20250125-WA0011 (1).jpg" alt="Raphael Mestre"
+                    class="img-fluid rounded-circle shadow-lg">
+            </div>
+
+        </div>
+    </main>
+
+    <section id="projetos" class="container py-5 bg-light">
+        <h1 class="text-center mb-5">Meus Projetos</h1>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 pt-3">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/winners-01.png" class="card-img-top" alt="imagem do site do hub de links">
+                    <div class="card-body">
+                        <h2 class="card-title">Hub de Links</h2>
+                        <p class="card-text">Meu primeiro projeto com HTML5 e CSS3, um hub de link simples, feito para
+                            a empresa Winners Motivation</p>
+                        <div class="text-center">
+                            <a href="https://raphael557.github.io/Winners/" class="btn btn-outline-dark mt-2"
+                                target="_blank">Repositório HUB</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/Winners-02.png" class="card-img-top" alt="imagem do site da kawasaki">
+                    <div class="card-body">
+                        <h2 class="card-title">Site One Page</h2>
+                        <p class="card-text">Meu segundo projeto Front-End, um site One Page sobre a empresa Winners
+                            Motivation.</p>
+                        <div class="text-center">
+                            <a href="https://raphael557.github.io/Winners-02/" class="btn btn-outline-dark mt-2"
+                                target="_blank">Repositório Winners</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/portfólio.png" class="card-img-top" alt="imagem genérica">
+                    <div class="card-body">
+                        <h2 class="card-title">Portfólio</h2>
+                        <p class="card-text">Terceiro projeto Front-End, ainda está sendo produzido.</p>
+                        <div class="text-center">
+                            <p class="btn btn-danger">Em Construção</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatos" class="container py-3">
+        <h1 class="text-center mb-3">Entre em Contato</h1>
+
+        <div class="row py-3">
+            <div class="col-md-6">
+                <p>
+                    Estou sempre em busca de novas oportunidades para cirar, aprender e colaborar. Se quiser trocar
+                    ideias
+                    ou discutir um possível projeto, será um prazer conversar e constuir algo junto.
+                </p>
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center mb-2 gap-2">
+                        <img src="img/envelope.png" alt="Caixa de e-mail Raphael Mestre">
+                        <span>raphalmestre502@gmail.com</span>
+                    </li>
+
+                    <li>
+                        <img src="img/whatsapp.png" alt="Whatsapp de Raphael Mestre">
+                        <a href="https://wa.me/5511960343151" tagert="_blank">(11) 96034-3151</a>
+                    </li>
+                </ul>
+
+                <div class="mt-3">
+                    <h2>Siga-me</h2>
+                    <div>
+                        <a href="https://github.com/raphael557" target="_blank" class="text-decoration-none">
+                            <img src="img/github.png" alt="Perfil do Github de Raphael Mestre">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/raphael-mestre-oliveira-67b89824b/"
+                            class="text-decoration-none">
+                            <img src="img/linkedin.png" alt="Perfil do Linkedin de Raphael Mestre">
+                        </a>
+                        <a href="" class="text-decoration-none">
+                            <img src="img/instagram.png" alt="Perfil do Instagram de raphael Mestre">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--Formulário-->
+            <div class="col-md-6">
+
+                <form class="row g-3 shadow-sm bg-light border rounded mt-4 pb-2">
+                    <div class="col-md-6">
+                        <label for="inputNome" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="inputNome" placeholder="Seu Nome"
+                            aria-label="Digitar seu nome">
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail4" placeholder="Seu email"
+                            aria-label="Digitar seu email">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="inputAssunto" class="form-label">Assunto</label>
+                        <input type="text" class="form-control" id="inputAssunto" placeholder="Assunto"
+                            aria-label="Digitar o assunto do e-mail">
+                    </div>
+
+                    <div class="col-12">
+                        <label class="form-label" for="areaMsg">Mensagem</label>
+                        <textarea class="form-control" name="Msg" id="areaMsg" placeholder="Digite sua mensagem"
+                            aria-label="Digite sua mensagem" rows="3"></textarea>
+                    </div>
+
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary"
+                            aria-label="enviar mensagem do formulário de contato">Enviar</button>
+                        <button type="submit" class="btn btn-primary" aria-label="Limpar formulário">Limpar</button>
+                    </div>
+            </div>
+            </form>
+        </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer class="container-fluid pt-3 bg-light">
+        <div class="row align-items-center text-center text-md-start">
+            <div class="col-md-6">
+                <p class="mb-0">Portfólio</p>
+                <p>&copy; 2025. Raphael Mestre</p>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <div class="d-flex align-items-center justify-content-center justify-content-md-end gap-2">
+                    <a href="" class="text-decoration-none">
+                        <img src="img/github.png" alt="Perfil do Github de raphael Mestre">
+                    </a>
+                    <a href="" class="text-decoration-none">
+                        <img src="img/linkedin.png" alt="Perfil do Linkedin de raphael Mestre">
+                    </a>
+                    <a href="" class="text-decoration-none">
+                        <img src="img/instagram.png" alt="Perfil do Instagram de raphael Mestre">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+        integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
